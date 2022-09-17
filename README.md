@@ -2,16 +2,18 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This project was used to demonstrate the ability to:  
+    -Create a working Portfolio website utilising html and css.  
+    -Meet certain acceptance criteria in terms of design and external links intergrated.
+     
 
 ## Usage
 
-This site is used as a portfolio website to display my capabilities and give access to look at other projects I have worked on (in the future)
+This site is used as a portfolio website to display my capabilities and give access to look at other projects I have worked on. (in the future)
+
+Deployed application: 
+https://biscuit231.github.io/Challenge02-Portfolio/
+
 
 ## License
 

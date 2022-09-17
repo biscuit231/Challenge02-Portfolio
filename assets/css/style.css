@@ -102,7 +102,7 @@ p {
 }
 
 /* Title for images */
-.main-container > a > h4 {
+.main-container > a > h3 {
     position: absolute;
     padding: 12px;
     background: #3e9ec7;
@@ -127,7 +127,7 @@ p {
 }
 
 /* Title for images */
-.image-container > a > h4 {
+.image-container > a > h3 {
     position: absolute;
     padding: 8px;
     background: #3e9ec7;
@@ -168,11 +168,6 @@ p {
 }
 
 h3 {
-    font-size: 45px;
-    text-align: end;
-}
-
-h4 {
     font-size: 24px;
     color: black;
 }
@@ -181,7 +176,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #27547e;
+    background-color: #6BA0D1;
     padding: 2em 6em;
 }
 
@@ -290,7 +285,7 @@ footer a {
         text-align: center;
     }
     
-    h4 {
+    h3 {
         font-size: 16px;
         color: black;
     }
