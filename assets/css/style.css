@@ -168,6 +168,11 @@ p {
 }
 
 h3 {
+    font-size: 45px;
+    text-align: end;
+}
+
+h3 {
     font-size: 24px;
     color: black;
 }
@@ -176,7 +181,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #6BA0D1;
+    background-color: #27547e;
     padding: 2em 6em;
 }
 
