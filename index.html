@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <h1>The Website</h1>
+        <h1>My Portfolio</h1>
         <nav>
             <ul>
                 <li><a href="#about-me-L">About Me</a></li>
@@ -43,24 +43,48 @@
         </div>
     </div>
 
-    <!-- Assign proper alts -->
     <div class="work" id="work-L">
         <h2 class="column left">Work</h2>
         <div class="column right">
-            <img class="main-large" id="image1" src="./assets/images/photo-1581882897974-fca44f329313.avif" alt="Main">
-            <div class="main-small">
-            <img id="image2" src="./assets/images/photo-1444703686981-a3abbc4d4fe3.avif" alt=".">
-            <img id="image3" src="./assets/images/photo-1528722828814-77b9b83aafb2.avif" alt=".">
-            <img id="image4" src="./assets/images/photo-1542371829-01086bea6924.avif" alt=".">
-            <img id="image5" src="./assets/images/photo-1621483092616-780665772d83.avif" alt=".">
+            <div class="main-container">
+                <a href="http://example.com/" target="_blank">
+                    <img class="main-large" id="image1" src="./assets/images/photo-1581882897974-fca44f329313.avif" alt="Overlooking a lake with a mountain in the distance.">
+                    <h4>My First Project</h4>
+                </a>    
+            </div>
+                <div class="main-small">
+                    <div class="image-container">
+                            <a href="http://example.com/" target="_blank">
+                                <img id="image2" src="./assets/images/photo-1444703686981-a3abbc4d4fe3.avif" alt="Guy looking up at the night sky.">
+                                <h4>My Second Project</h4>
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="http://example.com/" target="_blank">
+                                <img id="image3" src="./assets/images/photo-1528722828814-77b9b83aafb2.avif" alt="Stars in the night sky.">
+                                <h4>My Third Project</h4>
+                            </a>
+                        </div>
+                        <div  class="image-container">
+                            <a href="http://example.com/" target="_blank">
+                                <img id="image4" src="./assets/images/photo-1542371829-01086bea6924.avif" alt="A street in a residential area.">
+                                <h4>My Fourth Project</h4>
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="http://example.com/" target="_blank">
+                                <img id="image5" src="./assets/images/photo-1621483092616-780665772d83.avif" alt="A lightning storm with pinkish lightning.">
+                                <h4>My Fifth Project</h4>
+                            </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     </div>
 
-
     <footer>
-        <h3 id="contact-me-L">Contact Me</h3>
+        <h2 id="contact-me-L">Contact Me</h2>
         <ul>
             <li><a href="https://twitter.com/?lang=en" target="_blank">Twitter</a></li>
             <li><a href="mailto:jesse_11biscuit@hotmail.com">jesse_11biscuit@hotmail.com</a></li>
