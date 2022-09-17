@@ -1,0 +1,168 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #044f6f;
+    color: white;
+    padding: 40px 40px;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
+    list-style: none;
+   }
+
+nav a {
+    color: white;
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.wave {
+    height: 200px;
+    margin-bottom: 25px;
+    background-image: url("../images/photo-1505144808419-1957a94ca61e.avif");
+    background-size: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 20px;
+    padding-right: 5%;
+}
+
+.column {
+    float: left;
+    padding: 20px;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+    padding: 60px 100px;
+    border-left-style: solid;
+    border-color: #367d9c;
+    border-width: 7px;
+}
+
+.column.right {
+    color: black;
+    position: relative;
+    text-align: start;
+}
+
+.about-me {
+    margin: 25px;
+}
+
+.work {
+    margin: 25px;
+}
+
+.main-large {
+    width: 98%;
+    height: 500px;
+    border: 5px solid #367d9c;
+    display: flex;
+    margin: 10px;
+}
+
+.main-small img {
+    width: 48%;
+    height: 200px;
+    border: 5px solid #367d9c;
+    margin: 10px;
+}
+
+.main-small {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#image1:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* button {
+    width: 98%;
+    height: 500px;
+    border: 5px solid #367d9c;
+    display: flex;
+    margin: 10px;
+} */
+
+#image2:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#image3:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#image4:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#image5:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: end;
+}
+
+h3 {
+    font-size: 45px;
+    text-align: end;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #27547e;
+    padding: 2em 12em;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    min-width: 100%;
+}
+
+footer a {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline solid 5px;
+}
