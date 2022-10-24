@@ -12,7 +12,7 @@ This project was used to demonstrate the ability to:
 This site is used as a portfolio website to display my capabilities and give access to look at other projects I have worked on. (in the future)
 
 Deployed application: 
-https://biscuit231.github.io/Challenge02-Portfolio/
+https://biscuit231.github.io/Professional-Portfolio/
 
 
 ## License
